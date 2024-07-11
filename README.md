@@ -1,1 +1,1 @@
-# BARBER-SHOP
+# BARBER-SHOP project
