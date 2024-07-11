@@ -1,0 +1,205 @@
+/* Reset browser preset stylelings */
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Make img, video, and Audio tag to take 100% of the screen
+To fix: overflow of horizontal scroll */
+image,
+video,
+audio
+{
+    max-width: 100%;
+
+}
+/* padding is used to creat spacing within an element */
+nav {
+    background-color: orange;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero 
+{
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+padding: 12px;
+}
+
+.hero h1
+{
+font-size: 40px;
+text-align: center;
+}
+
+/* Sub Hero section */
+ .Sub-hero {
+margin-top: 60px;
+background-color: orange;
+padding: 60px 20px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.Sub-hero h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.Sub-hero h2 span {
+    color: dodgerblue;
+}
+
+.Sub-hero img {
+    border-radius: 8px;
+}
+
+/* Hairstyles section */
+#hairstyles{
+    margin: 60px auto  0px auto;
+    padding: 0px 20px;
+}
+
+#hairstyles h2{
+text-align: center;
+color: orange;
+margin-bottom: 20px;
+}
+
+#hairstyles ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/*Pricing section*/
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+#Pricing h2 {
+    text-align: center;
+    color: orange;
+}
+
+#Pricing table {
+    border border-collapse: collapse;
+}
+
+#Pricing table th, td {
+    border: 1px solid ddd;
+    text-align: center;
+    padding: 8px;
+    width: 50;
+}
+
+#Princing table tr:nth-child(even){
+    background-color: ddd;
+}
+
+/* Media Section */
+#Media {
+  background-color: black;
+  padding: 60px 20px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;  
+}
+
+#Media h2 {
+    text-align: center;
+    color: orange;
+}
+
+#Media h4 {
+    color: white;
+}
+
+/* About section */
+#About{
+    margin-top: 60px;
+    padding: 0px 20px;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#About  h2 {
+    color: orange;
+}
+
+#About p {
+    font-size: 20px;
+}
+
+/* Contact Section */
+#Contact {
+    background-color: orange;
+    margin-top: 60px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#Contact h2 {
+    color: white;
+    font-size: 40px;
+}
+
+#Contact h3 {
+    text-align: center;
+}
+
+#Contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#Contact form label {
+    font-size: 18px;
+}
+
+#Contact form input,
+#Contact form textarea {
+    padding: 10px 12px;
+    border: orange;
+    border-radius: 4px;
+}
+
+#Contact form button {
+background-color: black;
+color: white;
+border :none;
+padding :10px 12px;
+font-size: 18px;
+border-radius: 4px;
+cursor: pointer;
+}
